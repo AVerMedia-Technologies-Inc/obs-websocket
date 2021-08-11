@@ -42,7 +42,7 @@ void ___data_item_release(obs_data_item_t* dataItem) {
 }
 
 OBS_DECLARE_MODULE()
-OBS_MODULE_USE_DEFAULT_LOCALE("obs-websocket", "en-US")
+OBS_MODULE_USE_DEFAULT_LOCALE("obs-websocket-avt", "en-US")
 
 ConfigPtr _config;
 WSServerPtr _server;

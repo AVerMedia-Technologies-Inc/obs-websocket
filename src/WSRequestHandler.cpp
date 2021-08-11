@@ -189,7 +189,9 @@ const QHash<QString, RpcMethodHandler> WSRequestHandler::messageMap{
 	{ "GetTransitionSettings", &WSRequestHandler::GetTransitionSettings },
 	{ "SetTransitionSettings", &WSRequestHandler::SetTransitionSettings },
 	{ "ReleaseTBar", &WSRequestHandler::ReleaseTBar	},
-	{ "SetTBarPosition", &WSRequestHandler::SetTBarPosition	}
+	{ "SetTBarPosition", &WSRequestHandler::SetTBarPosition	}, 
+
+	{ "AverMedia_Parse_Json", &WSRequestHandler::ParseJson}
 };
 
 const QSet<QString> WSRequestHandler::authNotRequired {

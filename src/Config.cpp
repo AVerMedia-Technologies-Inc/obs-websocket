@@ -26,7 +26,7 @@ with this program. If not, see <https://www.gnu.org/licenses/>
 #include <QtWidgets/QInputDialog>
 #include <QtWidgets/QMessageBox>
 
-#define SECTION_NAME "WebsocketAPI"
+#define SECTION_NAME "WebsocketAPI_AVT"
 #define PARAM_ENABLE "ServerEnabled"
 #define PARAM_PORT "ServerPort"
 #define PARAM_LOCKTOIPV4 "LockToIPv4"
@@ -47,7 +47,7 @@ with this program. If not, see <https://www.gnu.org/licenses/>
 
 Config::Config() :
 	ServerEnabled(true),
-	ServerPort(4444),
+	ServerPort(24172),
 	LockToIPv4(false),
 	DebugEnabled(false),
 	AlertsEnabled(true),

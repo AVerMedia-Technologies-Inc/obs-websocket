@@ -207,4 +207,7 @@ class WSRequestHandler {
 		RpcResponse SetTransitionSettings(const RpcRequest&);
 		RpcResponse ReleaseTBar(const RpcRequest&);
 		RpcResponse SetTBarPosition(const RpcRequest&);
+
+		//AVERMEDIA
+		RpcResponse ParseJson(const RpcRequest&);
 };

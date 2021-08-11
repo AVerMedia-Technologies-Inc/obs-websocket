@@ -59,4 +59,4 @@ void ShowPasswordSetting();
 
 #define OBS_WEBSOCKET_VERSION "4.9.1"
 
-#define blog(level, msg, ...) blog(level, "[obs-websocket] " msg, ##__VA_ARGS__)
+#define blog(level, msg, ...) blog(level, "[obs-websocket-avt] " msg, ##__VA_ARGS__)
