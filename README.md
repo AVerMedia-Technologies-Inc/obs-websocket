@@ -28,3 +28,4 @@ Installation Guide
 1. Download the .zip file
 2. Unzip it
 3. copy the contents of the archive to the root of your OBS Studio installation folder
+
