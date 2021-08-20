@@ -4,7 +4,7 @@ AVerMedia OBS WebSocket Server is a plugin for use with OBS Studio, designed to 
 
 *- This plugin required to use with OBS Studio 27.0.0 or above.*
 
-*- This project folked from [Palskis/obs-websocket](https://github.com/Palakis/obs-websocket "Palskis/obs-websocket"), here is the original [README](https://github.com/Palakis/obs-websocket/blob/4.x-current/README.md "README").*
+*- This project folked from [Palakis/obs-websocket](https://github.com/Palakis/obs-websocket "Palskis/obs-websocket"), here is the original [README](https://github.com/Palakis/obs-websocket/blob/4.x-current/README.md "README").*
 
 Downloads
 ------------
