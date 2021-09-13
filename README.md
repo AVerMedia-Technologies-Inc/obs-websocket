@@ -16,6 +16,7 @@ Installation Guide
 ------------
 ### Using the Installer (Recommeded)
 **this will required the OBS Studio installed in the default folder*
+
 Windows
 1. Download the obs-websocket-avt-winOS.zip
 2. Unzip it and run the .bat
