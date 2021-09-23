@@ -32,7 +32,7 @@ AVerMedia OBS-Websocket（PC / Mac版）のダウンロードは[こちらへ](h
 
 ### Mac版（macOS）
 1. ”obs-websocket-avt-macOS.pkg”をダウンロードします。
-2. ”obs-websocket-avt-macOS.pkg”をダブルクリックしてインストールします。
+2. ダウンロードした”obs-websocket-avt-macOS.pkg”をダブルクリックしてインストールします。
 
 下載與安裝指南
 ------------
