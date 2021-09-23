@@ -6,6 +6,7 @@ AVerMedia OBS WebSocket Server is a plugin for use with OBS Studio, designed to 
 
 *- This project folked from [Palakis/obs-websocket](https://github.com/Palakis/obs-websocket "Palskis/obs-websocket"), here is the original [README](https://github.com/Palakis/obs-websocket/blob/4.x-current/README.md "README").*
 
+----
 
 Downloads & Installation Guide
 ------------
@@ -18,8 +19,9 @@ Binaries for Windows, MacOS are available in the [Releases](https://github.com/A
 
 ### Mac
 1. Download the obs-websocket-avt-macOS.pkg
-2. Run it
-3. Done
+2. Run it, the files will be automatically installed to the folder
+
+----
 
 ダウンロード＆インストールガイド
 ------------
@@ -34,6 +36,8 @@ AVerMedia OBS-Websocket（PC / Mac版）のダウンロードは[こちらへ](h
 1. ”obs-websocket-avt-macOS.pkg”をダウンロードします。
 2. ダウンロードした”obs-websocket-avt-macOS.pkg”をダブルクリックしてインストールします。
 
+----
+
 下載與安裝指南
 ------------
 Windows與Mac的安裝檔案可在 [Releases](https://github.com/AVerMedia-Technologies-Inc/obs-websocket/releases "Releases") 區域下載.
@@ -45,5 +49,4 @@ Windows與Mac的安裝檔案可在 [Releases](https://github.com/AVerMedia-Techn
 
 ### Mac
 1. 請下載obs-websocket-avt-macOS.pkg
-2. 執行
-3. 檔案將自動被複製進入OBS Studio的預設資料夾
+2. 執行檔案，將自動安裝相關檔案進入OBS Studio的預設資料夾
