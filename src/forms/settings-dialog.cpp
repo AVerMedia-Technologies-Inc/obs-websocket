@@ -84,7 +84,7 @@ void SettingsDialog::AuthCheckboxChanged() {
 		QString authDisabledWarning = QObject::tr("OBSWebsocket.Settings.AuthDisabledWarning");
 		obs_frontend_pop_ui_translation();
 
-		QMessageBox::StandardButton response = QMessageBox::question(this, "obs-websocket", authDisabledWarning);
+		QMessageBox::StandardButton response = QMessageBox::question(this, "AVerMedia OBS WebSocket", authDisabledWarning);
 		if (response == QMessageBox::Yes) {
 			ui->password->setEnabled(false);
 		} else {

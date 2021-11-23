@@ -70,7 +70,7 @@ namespace Utils {
 	void SysTrayNotify(
 		QString text,
 		QSystemTrayIcon::MessageIcon n,
-		QString title = QString("obs-websocket"));
+		QString title = QString("AVerMedia OBS WebSocket"));
 
 	const char* GetRecordingFolder();
 	bool SetRecordingFolder(const char* path);
