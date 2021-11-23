@@ -1,6 +1,8 @@
 #!/bin/sh
 
 OSTYPE=$(uname)
+OBS_DEPS_VERSION="2020-12-22"
+QT_VERSION="5.15.2"
 
 if [ "${OSTYPE}" != "Darwin" ]; then
 	echo "[obs-websocket - Error] macOS install dependencies script can be run on Darwin-type OS only."
