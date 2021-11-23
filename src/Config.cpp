@@ -343,10 +343,30 @@ void Config::FirstRunPasswordSetup()
 	
 	QMessageBox::StandardButton response = QMessageBox::question(mainWindow, dialogTitle, dialogText);
 	if (response == QMessageBox::Yes) {
+        if (config->Secret.isEmpty()) {
+            QString defaultPassword = "creatorcentral";
+            if (config->Salt.isEmpty()) {
+                config->Salt = config->GenerateSalt();
+            }
+
+            QString newChallenge = config->GenerateSecret(defaultPassword, config->Salt);
+            config->Secret = newChallenge;
+            config->Save();
+
+
+            blog(LOG_INFO, "Config::config->Salt: '%s'", config->Salt.toStdString().c_str());
+            blog(LOG_INFO, "Config::config->Secret: '%s'", config->Secret.toStdString().c_str());
+            blog(LOG_INFO, "Config::config->SessionChallenge: '%s'", config->SessionChallenge.toStdString().c_str());
+        }
+
 		ShowPasswordSetting();
 	}
 	else {
 		// tell the user they still can set the password later in our settings dialog
 		QMessageBox::information(mainWindow, dialogTitle, dismissedText);
+		if (config->AuthRequired && config->Secret.isEmpty()) {
+            config->AuthRequired = false;
+            config->Save();
+        }
 	}
 }
