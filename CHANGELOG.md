@@ -1,4 +1,12 @@
 # Changelog
+## Modification (2021.11.23)
+### About source code
+1. Add a default password "creatorcentral" when server set up first time
+### About compilation
+1. Modify macOS build scripts
+### About translation
+1. Use 「」 instead of "" in zh-TW.ini
+---
 ## Modification (2021.08.11)
 ### About source code
 1. Add a WSRequestHandler_AverMediaParseJson.cpp to handle custom request "AverMedia_Parse_Json"
