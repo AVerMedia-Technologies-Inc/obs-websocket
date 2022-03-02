@@ -39,6 +39,9 @@ SettingsDialog::SettingsDialog(QWidget* parent) :
 		this, &SettingsDialog::AuthCheckboxChanged);
 	connect(ui->buttonBox, &QDialogButtonBox::accepted,
 		this, &SettingsDialog::FormAccepted);
+
+	const QString currentTitle = this->windowTitle();
+	this->setWindowTitle(currentTitle + " (v1.0.1)");
 }
 
 void SettingsDialog::showEvent(QShowEvent* event) {
