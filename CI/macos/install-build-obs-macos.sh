@@ -26,7 +26,8 @@ echo "[obs-websocket] Cloning obs-studio from GitHub.."
 git clone https://github.com/obsproject/obs-studio
 cd obs-studio
 OBSLatestTag=$(git describe --tags --abbrev=0)
-git checkout $OBSLatestTag
+#git checkout $OBSLatestTag
+git checkout b3870476324e2dc79a9d30371a1199376bcd0ad7 
 mkdir build && cd build
 echo "[obs-websocket] Building obs-studio.."
 cmake .. \
