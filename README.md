@@ -2,7 +2,9 @@ What is AVerMedia OBS WebSocket Server?
 ------------
 AVerMedia OBS WebSocket Server is a plugin for use with OBS Studio, designed to interactive with AVerMedia products.
 
-*- This plugin required to use with OBS Studio 27.0.0 or above.*
+*- This plugin required to use with OBS Studio 27.2.0 or above.*
+
+*- v1.0.1 should correspond to AVerMedia_Creator_Central_1.1.0.69*
 
 *- This project folked from [Palakis/obs-websocket](https://github.com/Palakis/obs-websocket "Palskis/obs-websocket"), here is the original [README](https://github.com/Palakis/obs-websocket/blob/4.x-current/README.md "README").*
 
@@ -13,12 +15,11 @@ Downloads & Installation Guide
 Binaries for Windows, MacOS are available in the [Releases](https://github.com/AVerMedia-Technologies-Inc/obs-websocket/releases "Releases") section.
 
 ### Windows
-1. Download the obs-websocket-avt-WinOS-manual.zip
-2. Unzip it
-3. copy the contents of the archive to the root of your OBS Studio installation folder (default C:\Program Files\)
+1. Download the AVerMediaOBSWebSocketServerInstaller_v1.0.1.exe
+2. Run it and follow the instructions
 
 ### Mac
-1. Download the obs-websocket-avt-macOS.pkg
+1. Download the AVerMediaOBSWebSocketServerInstaller_v1.0.1.pkg
 2. Run it, the files will be automatically installed to the folder
 
 ----
@@ -28,13 +29,12 @@ Binaries for Windows, MacOS are available in the [Releases](https://github.com/A
 AVerMedia OBS-Websocket（PC / Mac版）のダウンロードは[こちらへ](https://github.com/AVerMedia-Technologies-Inc/obs-websocket/releases "Releases")
 
 ### PC版（Windows）
-1. ”obs-websocket-avt-WinOS-manual.zip”をダウンロードします。
-2. ダウンロードしたファイルを解凍します。解凍が終了すると「obs-studio」フォルダができます。
-3. 「obs-studio」をコピーして、OBSをインストールしたルートフォルダ（例： C:\Program Files）にペーストします。
+1. ”AVerMediaOBSWebSocketServerInstaller_v1.0.1.exe”をダウンロードします。
+2. ダウンロードした”AVerMediaOBSWebSocketServerInstaller_v1.0.1.exe”をダブルクリックしてインストールします。
 
 ### Mac版（macOS）
-1. ”obs-websocket-avt-macOS.pkg”をダウンロードします。
-2. ダウンロードした”obs-websocket-avt-macOS.pkg”をダブルクリックしてインストールします。
+1. ”AVerMediaOBSWebSocketServerInstaller_v1.0.1.pkg”をダウンロードします。
+2. ダウンロードした”AVerMediaOBSWebSocketServerInstaller_v1.0.1.pkg”をダブルクリックしてインストールします。
 
 ----
 
@@ -43,10 +43,9 @@ AVerMedia OBS-Websocket（PC / Mac版）のダウンロードは[こちらへ](h
 Windows與Mac的安裝檔案可在 [Releases](https://github.com/AVerMedia-Technologies-Inc/obs-websocket/releases "Releases") 區域下載.
 
 ### Windows
-1. 請下載obs-websocket-avt-WinOS-manual.zip
-2. 解壓縮
-3. 將資料夾複製進入OBS Studio的安裝路徑下 (OBS的預設路徑 C:\Program Files\)
+1. 請下載AVerMediaOBSWebSocketServerInstaller_v1.0.1.exe
+2. 執行檔案並依循指示操作
 
 ### Mac
-1. 請下載obs-websocket-avt-macOS.pkg
+1. 請下載AVerMediaOBSWebSocketServerInstaller_v1.0.1.pkg
 2. 執行檔案，將自動安裝相關檔案進入OBS Studio的預設資料夾
