@@ -1,4 +1,11 @@
 # Changelog
+## Modification (2022.3.2)
+### About source code
+1. Add version v1.0.1 on window title
+### About compilation
+1. Modify macOS build scripts
+---
+# Changelog
 ## Modification (2021.11.23)
 ### About source code
 1. Add a default password "creatorcentral" when server set up first time
