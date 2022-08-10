@@ -1,5 +1,8 @@
 *~
 .DS_Store
+.idea
+.vscode
+**.generated.h
 /build/
 /build32/
 /build64/
@@ -8,3 +11,6 @@
 /installer/Output/
 .idea
 .vscode
+/docs/node_modules/
+/installer/installer-windows.generated.iss
+/cmake-build-debug/

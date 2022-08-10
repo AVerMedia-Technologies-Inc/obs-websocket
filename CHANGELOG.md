@@ -1,4 +1,9 @@
 # Changelog
+
+## Backup 4.9.1 port to OBS 28 submodule build.
+### Windows
+- Migrate to Qt6 and OBS 28 dependency. You will need to replace the original obs-websocket sources.
+
 ## Modification (2022.3.2)
 ### About source code
 1. Add version v1.0.1 on window title

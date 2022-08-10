@@ -42,7 +42,7 @@ using websocketpp::lib::bind;
 WSServer::WSServer()
 	: QObject(nullptr),
 	  _connections(),
-	  _clMutex(QMutex::Recursive)
+	  _clMutex()//QMutex::Recursive
 {
 		_server.get_alog().clear_channels(websocketpp::log::alevel::frame_header | websocketpp::log::alevel::frame_payload | websocketpp::log::alevel::control);
 	_server.init_asio();
@@ -207,7 +207,7 @@ void WSServer::onMessage(connection_hdl hdl, server::message_ptr message)
 		return;
 	}
 
-	QtConcurrent::run(&_threadPool, [=]() {
+	static_cast<void>(QtConcurrent::run(&_threadPool, [=]() {
 		std::string payload = message->get_payload();
 
 		QMutexLocker locker(&_clMutex);
@@ -234,7 +234,7 @@ void WSServer::onMessage(connection_hdl hdl, server::message_ptr message)
 			blog(LOG_INFO, "server(response): send failed: %s",
 				errorCodeMessage.c_str());
 		}
-	});
+	}));
 }
 
 void WSServer::onClose(connection_hdl hdl)

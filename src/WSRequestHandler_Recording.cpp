@@ -103,7 +103,7 @@ RpcResponse WSRequestHandler::StartRecording(const RpcRequest& request) {
 * @since 4.7.0
 */
 RpcResponse WSRequestHandler::PauseRecording(const RpcRequest& request) {
-	return ifCanPause(request, [request]() {
+	return ifCanPause(request, [&request]() {
 		if (obs_frontend_recording_paused()) {
 			return request.failed("recording already paused");
 		}
@@ -123,7 +123,7 @@ RpcResponse WSRequestHandler::PauseRecording(const RpcRequest& request) {
 * @since 4.7.0
 */
 RpcResponse WSRequestHandler::ResumeRecording(const RpcRequest& request) {
-	return ifCanPause(request, [request]() {
+	return ifCanPause(request, [&request]() {
 		if (!obs_frontend_recording_paused()) {
 			return request.failed("recording is not paused");
 		}

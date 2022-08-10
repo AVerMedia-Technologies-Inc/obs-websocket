@@ -56,7 +56,7 @@ Config::Config() :
 	Salt(""),
 	SettingsLoaded(false)
 {
-	qsrand(QTime::currentTime().msec());
+	srand(QTime::currentTime().msec());//qsrand
 
 	SetDefaults();
 	SessionChallenge = GenerateSalt();
@@ -206,7 +206,7 @@ QString Config::GenerateSalt()
 	const size_t randomCount = 32;
 	QByteArray randomChars;
 	for (size_t i = 0; i < randomCount; i++) {
-		randomChars.append((char)qrand());
+		randomChars.append((char)rand());//qrand
 	}
 
 	// Convert the 32 random chars to a base64 string
