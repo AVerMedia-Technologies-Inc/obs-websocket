@@ -18,7 +18,7 @@ What is AVerMedia OBS WebSocket Server?
 
 *- v1.0.1 should correspond to **AVerMedia Creator Central** version at least v1.1.0.69 and under v1.1.2.7*
 
-*- This project folked from [Palakis/obs-websocket](https://github.com/Palakis/obs-websocket "Palskis/obs-websocket"), here is the original [README](https://github.com/Palakis/obs-websocket/blob/4.x-current/README.md "README").*
+*- This project folked from [Palakis/obs-websocket](https://github.com/Palakis/obs-websocket "Palskis/obs-websocket").*
 
 ----
 
