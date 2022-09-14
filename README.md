@@ -1,4 +1,4 @@
-Important
+Important Notes
 ------------
 1. **AVerMedia OBS WebSocket Server** can not run on **OBS Studio** v28
 
