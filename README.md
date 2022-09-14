@@ -1,17 +1,22 @@
-```
-Note: 
-If your AVerMedia Creator Central version is v1.1.2.10 or above, please use
-1. OBS Studio v28
-2. OBS Studio v27 with [obs-websocket 5.0.1](https://github.com/obsproject/obs-websocket/releases/tag/5.0.1).
-```
+Important
+------------
+1. **AVerMedia OBS WebSocket Server** can not run on **OBS Studio** v28
+
+2. If your **AVerMedia Creator Central** version is v1.1.2.10 or above, please use
+
+    *- **OBS Studio** v28*
+
+    *- **OBS Studio** v27 with [obs-websocket 5.0.1](https://github.com/obsproject/obs-websocket/releases/tag/5.0.1)*
+
+----
 
 What is AVerMedia OBS WebSocket Server?
 ------------
-AVerMedia OBS WebSocket Server is a plugin for use with OBS Studio, designed to interactive with AVerMedia products.
+**AVerMedia OBS WebSocket Server** is a plugin for use with **OBS Studio**, designed to interactive with AVerMedia products.
 
-*- Only use with OBS Studio v27! Do not install this if you are using an OBS version other than v27
+*- Only use with **OBS Studio** v27! Do not install this if you are using an **OBS Studio** version other than v27*
 
-*- v1.0.1 should correspond to AVerMedia Creator Central version at least v1.1.0.69 and under v1.1.2.7
+*- v1.0.1 should correspond to **AVerMedia Creator Central** version at least v1.1.0.69 and under v1.1.2.7*
 
 *- This project folked from [Palakis/obs-websocket](https://github.com/Palakis/obs-websocket "Palskis/obs-websocket"), here is the original [README](https://github.com/Palakis/obs-websocket/blob/4.x-current/README.md "README").*
 
